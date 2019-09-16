@@ -110,7 +110,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl.recovery \
     bootctrl.sdm845 \
     bootctrl.sdm845.recovery \
     check_dynamic_partitions \
