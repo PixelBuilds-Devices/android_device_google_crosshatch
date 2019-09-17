@@ -488,9 +488,9 @@ endif
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl-pixel-legacy \
-    android.hardware.boot@1.0-impl-pixel-legacy.recovery \
-    android.hardware.boot@1.0-service \
+    android.hardware.boot@1.1-impl-pixel-legacy \
+    android.hardware.boot@1.1-impl-pixel-legacy.recovery \
+    android.hardware.boot@1.1-service \
 
 #GNSS HAL
 PRODUCT_PACKAGES += \
