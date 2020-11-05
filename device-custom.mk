@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     libdrm.vendor \
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
