@@ -2,7 +2,6 @@
 # system partition
 -app/atfwd/atfwd.apk
 -app/CameraExtensionsProxy/CameraExtensionsProxy.apk
--app/datastatusnotification/datastatusnotification.apk
 -app/ims/ims.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/uceShimService/uceShimService.apk
