@@ -551,7 +551,7 @@ on property:sys.boot_completed=1
     # Enable ZRAM on boot_complete
     rm /data/unencrypted/zram_swap
     swapon_all /vendor/etc/fstab.${ro.boot.hardware.platform}
-    write /proc/sys/vm/swappiness 100
+    write /proc/sys/vm/swappiness 90
 
     # Setup final blkio
     # value for group_idle is us
