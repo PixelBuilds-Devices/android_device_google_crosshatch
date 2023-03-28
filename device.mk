@@ -775,9 +775,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
 # Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
+TARGET_LMKD_STATS_LOG := false
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.lmk.log_stats=true
+    ro.lmk.log_stats=false
 
 # default usb oem functions
 ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
