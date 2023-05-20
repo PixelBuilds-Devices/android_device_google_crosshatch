@@ -142,6 +142,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0 \
     vendor.qti.hardware.cryptfshw@1.0.vendor
 
+# Lineage Health
+include hardware/google/pixel/lineage_health/device.mk
+
 # NDK Platform backend
 PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-ndk_platform.vendor:64 \
