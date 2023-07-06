@@ -806,6 +806,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Enable backpressure for GL comp
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1
+    
+# Latch unsignaled configuration for SurfaceFlinger
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.latch_unsignaled=true
 
 # Do not skip init trigger by default
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
