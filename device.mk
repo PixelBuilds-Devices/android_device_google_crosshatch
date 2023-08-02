@@ -811,6 +811,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=true
 
+# maxFrameBufferAcquiredBuffers count
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # Do not skip init trigger by default
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     vendor.skip.init=0
