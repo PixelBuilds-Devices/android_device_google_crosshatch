@@ -239,3 +239,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.hardware.rebootescrow-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.rebootescrow-V1-ndk.so \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/android.hardware.rebootescrow-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.rebootescrow-V1-ndk.so
+
+# Identity
+PRODUCT_PACKAGES += \
+    android.hardware.identity-V5-ndk.vendor
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0.vendor
