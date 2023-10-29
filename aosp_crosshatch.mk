@@ -52,11 +52,10 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/
 # b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
-# Inherit some common PixelExperience stuff.
+# Inherit some PixelBuilds stuff.
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_QUICK_TAP := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pb/config/common_full_phone.mk)
 
 # Inherit device configuration
 -include device/google/crosshatch/device-custom.mk
