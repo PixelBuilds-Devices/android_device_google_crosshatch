@@ -1,13 +1,18 @@
 [
    {
-      "repository":"kernel_google_bluecross",
+      "repository":"android_kernel_google_bluecross",
       "target_path":"kernel/google/bluecross",
-      "branch":"twelve"
+      "branch":"infinity"
    },
    {
-      "repository":"vendor_google_crosshatch",
+      "repository":"android_vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
-      "branch":"twelve",
-      "remote":"pixel-devices-blobs"
+      "remote":"pixelbuilds-blobs-gitlab"
+  },
+  {
+    "repository": "android_packages_apps_ElmyraService",
+    "target_path": "packages/apps/ElmyraService",
+    "branch":"unity",
+    "remote":"pixelbuilds"
    }
 ]
