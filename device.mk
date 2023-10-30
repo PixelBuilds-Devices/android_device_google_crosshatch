@@ -377,11 +377,6 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.2-impl.crosshatch \
     small_hals.crosshatch-service
 
-# Bluetooth HAL
-PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl-qti \
-    android.hardware.bluetooth@1.0-service-qti
-
 # Bluetooth SoC
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee
@@ -442,7 +437,6 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libstagefrighthw \
     libOmxVdec \
-    libOmxVdecHevc \
     libOmxVenc \
     libc2dcolorconvert
 
@@ -465,20 +459,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.media.transcoding.codec_max_operating_rate_4k=120 \
 
 PRODUCT_PACKAGES += \
-    libqcodec2 \
-    vendor.qti.media.c2@1.0-service \
-    codec2.vendor.ext.policy \
-    codec2.vendor.base.policy
-
-PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    camera.device@3.2-impl \
-    camera.sdm845 \
-    libqomx_core \
-    libmmjpeg_interface \
-    libmmcamera_interface \
-    libcameradepthcalibrator
+    camera.device@3.2-impl
 
 # Google Camera HAL test libraries in debug builds
 #PRODUCT_PACKAGES_DEBUG += \
@@ -486,10 +469,7 @@ PRODUCT_PACKAGES += \
 ##    libgoogle_camera_hal_tests
 
 PRODUCT_PACKAGES += \
-    sensors.$(PRODUCT_HARDWARE) \
-    android.hardware.sensors@2.0-impl \
-    android.hardware.sensors@2.0-service \
-    android.hardware.sensors@2.0-service.rc
+    sensors.$(PRODUCT_HARDWARE)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:vendor/etc/sensors/hals.conf
@@ -542,7 +522,6 @@ endif
 PRODUCT_PACKAGES += $(HOSTAPD)
 
 WPA := wpa_supplicant.conf
-WPA += wpa_supplicant_wcn.conf
 WPA += wpa_supplicant
 PRODUCT_PACKAGES += $(WPA)
 
@@ -559,9 +538,6 @@ PRODUCT_PACKAGES += \
 # Connectivity
 PRODUCT_PACKAGES += \
     ConnectivityOverlay
-
-LIB_NL := libnl_2
-PRODUCT_PACKAGES += $(LIB_NL)
 
 # Audio effects
 PRODUCT_PACKAGES += \
@@ -688,9 +664,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-PRODUCT_PACKAGES += \
-    vndk-sp
-
 # Override heap growth limit due to high display density on device
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit?=256m
@@ -716,8 +689,6 @@ PRODUCT_COPY_FILES += \
     device/google/crosshatch/permissions/com.google.hardware.camera.easel_2018.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.hardware.camera.easel_2018.xml
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.fpc
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.fingerprint.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.fingerprint.sh \
 
@@ -845,10 +816,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #PRODUCT_PRODUCT_PROPERTIES += \
 #    ro.adb.secure=1
-
-# pixel atrace HAL
-PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service.pixel
 
 # fastbootd
 PRODUCT_PACKAGES += \
