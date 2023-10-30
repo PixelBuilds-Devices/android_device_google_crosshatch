@@ -71,6 +71,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 #endif
 
 PRODUCT_CHARACTERISTICS := nosdcard
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 PRODUCT_PACKAGES += \
