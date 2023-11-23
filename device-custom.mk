@@ -199,10 +199,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor \
     android.frameworks.sensorservice@1.0.vendor
 
-# Shims
-PRODUCT_PACKAGES += \
-    lib-secureuishim
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor
