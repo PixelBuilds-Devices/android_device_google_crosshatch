@@ -1,24 +1,18 @@
 [
    {
-      "repository":"kernel_google_bluecross",
+      "repository":"android_kernel_google_bluecross",
       "target_path":"kernel/google/bluecross",
-      "branch":"thirteen"
+      "branch":"unity"
    },
    {
-     "repository":"PixelBoot/packages_apps_GoogleCamera",
-     "target_path":"packages/apps/GoogleCamera",
-     "remote":"gitlab",
-     "branch":"thirteen"
-   },
-   {
-      "repository":"vendor_google_crosshatch",
+      "repository":"android_vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
-      "branch":"thirteen",
-      "remote":"pixel-devices-blobs"
+      "branch":"unity",
+      "remote":"pixelbuilds-blobs-gitlab"
   },
   {
     "repository": "android_packages_apps_ElmyraService",
-    "target_path": "packages/apps/ElmyraService"
+    "target_path": "packages/apps/ElmyraService",
     "branch":"lineage-21.0",
     "remote":"LineageOS"
    }
