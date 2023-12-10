@@ -662,6 +662,11 @@ service cnss-daemon /vendor/bin/cnss-daemon -n -l
    user system
    group system inet wifi
 
+service cnd /vendor/bin/cnd
+   class main
+   user radio
+   group system wifi inet radio wakelock
+
 service ipacm /vendor/bin/ipacm
     class main
     user radio
