@@ -44,4 +44,11 @@
 
     <!-- The package name for the platform carrier config app, bundled with system image. -->
     <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>
+     
+    <!-- Specify a service to bind to that returns an implementation of the
+         IApnSourceService interface.
+         (e.g. com.foo/.Bar for the package com.foo and class com.foo.Bar)
+         If this value is empty or unparsable, we will apply APNs from the APN
+         conf xml file.  -->
+    <string name="apn_source_service">com.google.android.carrier/.ApnSourceService</string>
 </resources>
