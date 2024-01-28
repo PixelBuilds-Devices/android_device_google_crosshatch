@@ -247,3 +247,6 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor
+
+# Viper
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
