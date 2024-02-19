@@ -9,11 +9,11 @@
       "target_path":"vendor/google/crosshatch",
       "branch":"unity",
       "remote":"pixelbuilds-blobs-gitlab"
-  },
-  {
-    "repository": "android_packages_apps_ElmyraService",
-    "target_path": "packages/apps/ElmyraService",
-    "branch":"lineage-21.0",
-    "remote":"LineageOS"
+   },
+   {
+      "repository":"android_packages_apps_ElmyraService",
+      "target_path":"packages/apps/ElmyraService",
+      "branch":"unity",
+      "remote":"pixelbuilds"
    }
 ]
