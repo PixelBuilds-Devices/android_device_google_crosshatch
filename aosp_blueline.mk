@@ -56,6 +56,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/pb/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit device configuration
 -include device/google/crosshatch/device-custom.mk
