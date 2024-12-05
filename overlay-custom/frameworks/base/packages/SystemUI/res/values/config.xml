@@ -34,6 +34,4 @@
     <!-- Dock component -->
     <string name="config_dockComponent">com.google.android.systemui.dreamliner.WirelessChargerImpl</string>
 
-     <!-- Wireless charging -->
-    <bool name="config_wlc_support_enabled">true</bool>
 </resources>
