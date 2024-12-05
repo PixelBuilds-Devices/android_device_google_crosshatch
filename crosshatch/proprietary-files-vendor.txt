@@ -27,7 +27,6 @@ vendor/bin/hw/init_citadel
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.google.radioext@1.0-service
 vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor
-vendor/bin/hw/vendor.google.wireless_charger@1.3-service-vendor
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|4d2d16d30afa827a122777909df451ce9d21eaf9
 vendor/bin/imsdatadaemon
@@ -169,7 +168,6 @@ vendor/etc/init/qcrild.rc
 vendor/etc/init/rebootescrow-citadel.rc
 vendor/etc/init/vendor.google.radioext@1.0-service.rc
 vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc
-vendor/etc/init/vendor.google.wireless_charger@1.3-service.rc
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
@@ -236,7 +234,6 @@ vendor/etc/sensors/sns_reg_config
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 -vendor/etc/vintf/manifest/manifest_wifi_ext.xml
 -vendor/etc/vintf/manifest/rebootescrow-citadel.xml
--vendor/etc/vintf/manifest/vendor.google.wireless_charger@1.3-service-vendor.xml
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a630_zap.b00
@@ -714,10 +711,6 @@ vendor/lib64/vendor.google.radioext@1.3.so
 vendor/lib64/vendor.google.wifi_ext@1.0.so
 vendor/lib64/vendor.google.wifi_ext@1.1.so
 vendor/lib64/vendor.google.wifi_ext@1.2.so
-vendor/lib64/vendor.google.wireless_charger@1.0.so
-vendor/lib64/vendor.google.wireless_charger@1.1.so
-vendor/lib64/vendor.google.wireless_charger@1.2.so
-vendor/lib64/vendor.google.wireless_charger@1.3.so
 vendor/lib64/vendor.qti.googleext.imsext@1.0.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
