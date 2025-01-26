@@ -36,4 +36,8 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Disable components if installed -->
+    <string-array name="config_deviceDisabledComponents">
+    <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
+    </string-array>
 </resources>
