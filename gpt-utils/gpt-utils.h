@@ -81,7 +81,7 @@ extern "C" {
 #define PTN_XBL                         "xbl"
 #define PTN_SWAP_LIST                   PTN_XBL, \
             "abl", "aop", "apdp", "cmnlib", "cmnlib64", \
-            "devcfg", "dtbo", "hyp", "keymaster", "msadp", \
+            "devcfg", "hyp", "keymaster", "msadp", \
             "qupfw", "storsec", "tz", "vbmeta", "vbmeta_system", "xbl_config"
 
 #define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem", "system_ext", "product"
