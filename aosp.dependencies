@@ -2,12 +2,12 @@
    {
       "repository":"android_kernel_google_bluecross",
       "target_path":"kernel/google/bluecross",
-      "branch":"unity"
+      "branch":"infinity"
    },
    {
       "repository":"android_vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
-      "branch":"unity",
+      "branch":"infinity",
       "remote":"pixelbuilds-blobs-gitlab"
    },
    {
