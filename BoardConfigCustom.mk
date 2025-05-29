@@ -12,7 +12,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := b1c1_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/bluecross
+TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/charge_disable
