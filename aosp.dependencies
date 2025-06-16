@@ -12,7 +12,6 @@
   {
     "repository": "android_packages_apps_ElmyraService",
     "target_path": "packages/apps/ElmyraService",
-    "branch":"unity",
     "remote":"pixelbuilds"
    }
 ]
