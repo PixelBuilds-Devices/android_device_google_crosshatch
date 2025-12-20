@@ -22,9 +22,6 @@ TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
 # Lineage FCM
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/pb/config/device_framework_matrix.xml
 
-# Verified Boot
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
-
 # Vendor Image
 AB_OTA_PARTITIONS += vendor
 ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
